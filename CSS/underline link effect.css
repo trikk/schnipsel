@@ -1,3 +1,5 @@
+/* http://jsfiddle.net/dipser/fpv0edn8/ */
+
 a {display:inline-block;text-decoration:none;outline:0 none;color:black;}
 a:hover:after {
     transform:scale(1);
@@ -14,4 +16,4 @@ a:after {
     width: 100%;
 }
 
-/* http://jsfiddle.net/dipser/fpv0edn8/ */
+
