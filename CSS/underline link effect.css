@@ -1,1 +1,17 @@
- 
+a {display:inline-block;text-decoration:none;outline:0 none;color:black;}
+a:hover:after {
+    transform:scale(1);
+}
+a:after {
+    background: none repeat scroll 0 0 #000;
+    content: " ";
+    display: block;
+    height: 1px;
+    left: 0;
+    position: relative;
+    transform: scale(0);
+    transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1) 0s;
+    width: 100%;
+}
+
+/* http://jsfiddle.net/dipser/fpv0edn8/ */
