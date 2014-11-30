@@ -1,0 +1,26 @@
+.transition(@x) {
+  -webkit-transition: @x;
+  -moz-transition: @x;
+  transition: @x;
+}
+
+a.fx {
+		display: block;
+		text-decoration: none;
+}
+a.fx .bild { background-size: 100% 100%; background-repeat: no-repeat; background-position: center center; transform: rotate(0.001deg); .transition(background-size 0.3s); }
+a.fx .bild img { opacity: 0; } // Ausblenden
+a.fx:hover {
+	display: block;
+}
+a.fx:hover .bild {
+		background-size: 110% 110%;
+		.transition(background-size 0.3s);
+}
+
+
+<a class="fx" href="">
+    <div class="bild" style="background-image:url(/Bildarchiv/_Testbilder/shkg.jpg);">
+        <img class="img-full-responsive" width="269" height="202" alt=" " src="/Bildarchiv/_Testbilder/shkg.jpg"></img>
+    </div>
+</a>
