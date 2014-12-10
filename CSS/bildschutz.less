@@ -1,0 +1,15 @@
+// Bilder-Schutz (Drag and Drop, Rechtsklick)
+// Benutzung: <div class="img-protect"><img ... /></div>
+.img-protect {
+  position:relative;
+  //display:inline-block; /* Je nach Typ verwenden */
+}
+.img-protect:after {/*border:1px solid red;*/
+  content: '';
+  position:absolute;
+  top:0;
+  left:0;
+  display:inline-block;
+  width:100%;
+  height:100%;
+}
