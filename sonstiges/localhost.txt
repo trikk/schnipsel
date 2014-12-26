@@ -2,4 +2,5 @@ ordner: mamp/canf/apache/extra/httpd-vhosts.conf
     neuen lokal erstellen
 terminal aufrufen:
     sudo so  und  passwort
-    nano  etc/host
+    nano  /etc/hosts
+    local host eintragen
