@@ -3,4 +3,4 @@ ordner: mamp/canf/apache/extra/httpd-vhosts.conf
 terminal aufrufen:
     sudo su  und  passwort
     nano  /etc/hosts
-    local host eintragen     ctrl + o
+    local host eintragen und speichern: ctrl + o
