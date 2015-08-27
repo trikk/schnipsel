@@ -1,0 +1,6 @@
+node.js installieren
+terminal: sudo npm install -g cordova
+apache cordova
+erstelleung eines grundgerüst ordners, der für die geräte umgebungen bereitstellt
+Simulation für ios: xcode
+simulation für adroid: android studio
