@@ -28,3 +28,10 @@ npm init
 ```
 nano Dateiname
 ```
+
+# Node-Datei ausführen:
+```
+node Dateiname
+Bsp:
+node index.js
+```
