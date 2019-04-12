@@ -11,3 +11,20 @@ ssh root@lyra.et-inf.fho-emden.de -p 14042
 ```
 passwd
 ```
+
+# Ordner erstellen:
+
+```
+mkdir Ordnername
+```
+
+# Node Prjekt erstellen:
+
+```
+npm init
+```
+
+# Datei editieren und erstellen(Editor):
+```
+nano Dateiname
+```
